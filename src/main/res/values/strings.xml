@@ -1,77 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <resources>
-    <!-- language -->
-    <string name="lang_ko">한국어</string>
-    <string name="lang_en">영어</string>
-    <string name="lang_jp">일본어</string>
-    <string name="lang_cn">중국어</string>
-    <string name="lang_de">독일어</string>
-    <string name="lang_es">스페인어</string>
-    <string name="lang_vi">베트남어</string>
-
-    <!-- title -->
-    <string name="title_license">소보로 등록하기</string>
-    <string name="title_sotong">소보로 소통 창구</string>
-
-    <!-- text -->
-    <string name="text_default_content">시작하기 버튼을 누르시면 소보로가 실행됩니다</string>
-    <string name="text_album">앨범</string>
-    <string name="text_downloading">APK 파일을 다운로드하고 있습니다.</string>
-    <string name="text_downloaded_message">다운로드가 완료되면 설치 화면으로 이동합니다.</string>
-    <string name="text_font_size">글씨 크기</string>
-    <string name="text_guide">사용 가이드</string>
-    <string name="text_select_language">언어 선택</string>
-    <string name="text_license_description">소보로를 사용하려면 아래의 빈칸에 라이선스 키를 등록하세요.</string>
-
-    <!-- popup -->
-    <string name="popup_title_alert">알람</string>
-    <string name="popup_title_permission">권한 동의</string>
-    <string name="popup_title_error">오류</string>
-
-    <string name="popup_message_network">인터넷이 연결되어 있지 않습니다. 인터넷 연결상태를 확인해 주세요.</string>
-    <string name="popup_message_need_permission">권한에 동의하셔야 서비스 이용이 가능합니다. 앱을 재시작 해주세요.</string>
-    <string name="popup_message_allow_source">소보로 앱 업데이트를 위해 \'이 출처 허용\'을 설정해 주시기 바랍니다. 위 권한은 추후 소보로 앱 업데이트시 사용됩니다. 설정화면으로 이동하시겠습니까?</string>
-    <string name="popup_message_check_network">서버에 접속할 수 없습니다. 네트워크를 확인해 주세요.</string>
-    <string name="popup_message_check_user_info">사용자 정보가 일치하지 않습니다.</string>
-    <string name="popup_message_incorrect_user_info">올바르지 않은 사용자 정보 입니다.</string>
-    <string name="popup_message_server_error">서버에 오류가 있습니다. 관리자에게 문의하세요.</string>
-    <string name="popup_message_force_update">새로운 버전의 앱이 출시되었습니다. 설치를 누르시면 새버전을 다운로드 하고 설치 화면으로 이동합니다. (파일크기 : %1$sMB)</string>
-    <string name="popup_message_recommand_update">새로운 버전의 앱이 출시되었습니다. 새버전을 설치하시겠습니까? (파일크기 : %1$sMB)</string>
-    <string name="popup_message_client_error">정보가 올바르지 않습니다.</string>
-    <string name="popup_message_empty_license">라이선스키를 입력해 주세요.</string>
-    <string name="popup_message_invalid_license">올바른 라이선스키 형식이 아닙니다.</string>
-    <string name="popup_message_server_error_status">Server Error : %1$s</string>
-    <string name="popup_message_network_error">네트워크 장애가 발생하였습니다. 인터넷 연결 상태를 확인해 주세요.</string>
-    <string name="popup_message_copied_text">문자통역 내용이 복사되었습니다.</string>
-    <string name="popup_message_delete_confirm">삭제된 자막은 복구할 수 없습니다. 삭제하시겠습니까?</string>
-    <string name="popup_message_deleted">문자통역 내용이 삭제되었습니다.</string>
-    <string name="popup_message_delete_drawing">필담 내용을 삭제하시겠습니까?</string>
-    <string name="popup_message_deleted_drawing">필담 내용이 삭제되었습니다.</string>
-    <string name="popup_message_unstable_network">인터넷 연결이 원활하지 않습니다. 인터넷 연결상태를 확인해 주세요.</string>
-    <string name="popup_message_need_mic_permission">권한이 없어 음성인식 기능을 실행할 수 없습니다.</string>
-    <string name="popup_message_mic_already_in_use">음성인식 기능이 타앱에서 활성화되어 있어서 사용할 수 없습니다. 음성인식 기능을 사용중인 앱을 종료하시고 다시 시도해 주세요.</string>
-    <string name="popup_message_once_more_exit">\'뒤로\' 버튼을 한 번 더 누르면 종료됩니다.</string>
-    <string name="popup_message_upload_error">파일 업로드 중 오류가 발생하였습니다. 문의 부탁드립니다.</string>
-
-    <string name="popup_btn_confirm">확인</string>
-    <string name="popup_btn_exit">종료</string>
-    <string name="popup_btn_install">설치</string>
-    <string name="popup_btn_next">다음에</string>
-    <string name="popup_btn_no">아니오</string>
-    <string name="popup_btn_yes">예</string>
-
-    <!-- button -->
-    <string name="btn_recognize_on">시작하기</string>
-    <string name="btn_recognize_off">중지하기</string>
-    <string name="btn_show_painting">필담열기</string>
-    <string name="btn_close_painting">필담닫기</string>
-    <string name="btn_settings">설정하기</string>
-    <string name="btn_getting_started">시작하기</string>
-    <string name="btn_skip">건너뛰기</string>
-    <string name="btn_close">닫기</string>
-    <string name="btn_show_guide">다시 보기</string>
-    <string name="btn_license_submit_button">등록하기</string>
-
-    <!-- placeholder -->
-    <string name="placeholder_message_input">소통 창구에 문의나 상담을 원하시면 친절히 답해드리겠습니다.</string>
+  <string name="lang_ko">한국어</string>
+  <string name="lang_en">영어</string>
+  <string name="lang_jp">일본어</string>
+  <string name="lang_cn">중국어</string>
+  <string name="lang_de">독일어</string>
+  <string name="lang_es">스페인어</string>
+  <string name="lang_vi">베트남어</string>
+  <string name="title_license">소보로 등록하기</string>
+  <string name="title_sotong">소보로 소통 창구</string>
+  <string name="text_default_content">시작하기 버튼을 누르시면 소보로가 실행됩니다</string>
+  <string name="text_album">앨범</string>
+  <string name="text_downloading">APK 파일을 다운로드하고 있습니다.</string>
+  <string name="text_downloaded_message">다운로드가 완료되면 설치 화면으로 이동합니다.</string>
+  <string name="text_font_size">글씨 크기</string>
+  <string name="text_guide">사용 가이드</string>
+  <string name="text_select_language">언어 선택</string>
+  <string name="text_license_description">소보로를 사용하려면 아래의 빈칸에 라이선스 키를 등록하세요.</string>
+  <string name="popup_title_alert">알람</string>
+  <string name="popup_title_permission">권한 동의</string>
+  <string name="popup_title_error">오류</string>
+  <string name="popup_message_network">인터넷이 연결되어 있지 않습니다. 인터넷 연결상태를 확인해 주세요.</string>
+  <string name="popup_message_need_permission">권한에 동의하셔야 서비스 이용이 가능합니다. 앱을 재시작 해주세요.</string>
+  <string name="popup_message_allow_source">소보로 앱 업데이트를 위해 \'이 출처 허용\'을 설정해 주시기 바랍니다. 위 권한은 추후 소보로 앱 업데이트시 사용됩니다. 설정화면으로 이동하시겠습니까?</string>
+  <string name="popup_message_check_network">서버에 접속할 수 없습니다. 네트워크를 확인해 주세요.</string>
+  <string name="popup_message_check_user_info">사용자 정보가 일치하지 않습니다.</string>
+  <string name="popup_message_incorrect_user_info">올바르지 않은 사용자 정보 입니다.</string>
+  <string name="popup_message_server_error">서버에 오류가 있습니다. 관리자에게 문의하세요.</string>
+  <string name="popup_message_force_update">새로운 버전의 앱이 출시되었습니다. 설치를 누르시면 새버전을 다운로드 하고 설치 화면으로 이동합니다. (파일크기 : %1$sMB)</string>
+  <string name="popup_message_recommand_update">새로운 버전의 앱이 출시되었습니다. 새버전을 설치하시겠습니까? (파일크기 : %1$sMB)</string>
+  <string name="popup_message_client_error">정보가 올바르지 않습니다.</string>
+  <string name="popup_message_empty_license">라이선스키를 입력해 주세요.</string>
+  <string name="popup_message_invalid_license">올바른 라이선스키 형식이 아닙니다.</string>
+  <string name="popup_message_server_error_status">Server Error : %1$s</string>
+  <string name="popup_message_network_error">네트워크 장애가 발생하였습니다. 인터넷 연결 상태를 확인해 주세요.</string>
+  <string name="popup_message_copied_text">문자통역 내용이 복사되었습니다.</string>
+  <string name="popup_message_delete_confirm">삭제된 자막은 복구할 수 없습니다. 삭제하시겠습니까?</string>
+  <string name="popup_message_deleted">문자통역 내용이 삭제되었습니다.</string>
+  <string name="popup_message_delete_drawing">필담 내용을 삭제하시겠습니까?</string>
+  <string name="popup_message_deleted_drawing">필담 내용이 삭제되었습니다.</string>
+  <string name="popup_message_unstable_network">인터넷 연결이 원활하지 않습니다. 인터넷 연결상태를 확인해 주세요.</string>
+  <string name="popup_message_need_mic_permission">권한이 없어 음성인식 기능을 실행할 수 없습니다.</string>
+  <string name="popup_message_mic_already_in_use">음성인식 기능이 타앱에서 활성화되어 있어서 사용할 수 없습니다. 음성인식 기능을 사용중인 앱을 종료하시고 다시 시도해 주세요.</string>
+  <string name="popup_message_once_more_exit">\'뒤로\' 버튼을 한 번 더 누르면 종료됩니다.</string>
+  <string name="popup_message_upload_error">파일 업로드 중 오류가 발생하였습니다. 문의 부탁드립니다.</string>
+  <string name="popup_message_download_error">다운로드 중 문제가 발생하여 업데이트를 중지합니다. 재부팅 후 다시 시도해 주세요.</string>
+  <string name="popup_btn_confirm">확인</string>
+  <string name="popup_btn_exit">종료</string>
+  <string name="popup_btn_install">설치</string>
+  <string name="popup_btn_next">다음에</string>
+  <string name="popup_btn_no">아니오</string>
+  <string name="popup_btn_yes">예</string>
+  <string name="btn_recognize_on">시작하기</string>
+  <string name="btn_recognize_off">중지하기</string>
+  <string name="btn_show_painting">필담열기</string>
+  <string name="btn_close_painting">필담닫기</string>
+  <string name="btn_settings">설정하기</string>
+  <string name="btn_getting_started">시작하기</string>
+  <string name="btn_skip">건너뛰기</string>
+  <string name="btn_close">닫기</string>
+  <string name="btn_show_guide">다시 보기</string>
+  <string name="btn_license_submit_button">등록하기</string>
+  <string name="placeholder_message_input">소통 창구에 문의나 상담을 원하시면 친절히 답해드리겠습니다.</string>
+  <string name="text_connected_count">접속인원</string>
+  <string name="text_connected_people">명</string>
+  <string name="text_channel_sharing">채널 공유</string>
+  <string name="text_channel_hint"># 채널명을 입력하세요.</string>
+  <string name="btn_create_channel">생성</string>
+  <string name="text_channel_description">띄어쓰기 없이 영문만 가능, 소문자와 숫자만 가능, 20자 이내, 특수기호 불가</string>
+  <string name="btn_destroy_channel">종료</string>
+  <string name="popup_message_invalid_channel_name">채널명이 올바르게 입력되지 않았습니다. 영문, 숫자, 20자이내로만 입력해주세요.</string>
+  <string name="popup_message_channel_creation_failed">채널 생성에 실패하였습니다. 다시 시도해 주세요.</string>
+  <string name="popup_message_channel_already_exist">이미 해당 채널이 존재합니다. 다른 채널명으로 입력해 주세요.</string>
 </resources>
