@@ -17,7 +17,7 @@
   <string name="text_guide">사용 가이드</string>
   <string name="text_select_language">언어 선택</string>
   <string name="text_license_description">소보로를 사용하려면 아래의 빈칸에 라이선스 키를 등록하세요.</string>
-  <string name="popup_title_alert">알람</string>
+  <string name="popup_title_alert">알림</string>
   <string name="popup_title_permission">권한 동의</string>
   <string name="popup_title_error">오류</string>
   <string name="popup_message_network">인터넷이 연결되어 있지 않습니다. 인터넷 연결상태를 확인해 주세요.</string>
@@ -72,4 +72,6 @@
   <string name="popup_message_invalid_channel_name">채널명이 올바르게 입력되지 않았습니다. 영문, 숫자, 20자이내로만 입력해주세요.</string>
   <string name="popup_message_channel_creation_failed">채널 생성에 실패하였습니다. 다시 시도해 주세요.</string>
   <string name="popup_message_channel_already_exist">이미 해당 채널이 존재합니다. 다른 채널명으로 입력해 주세요.</string>
+  <string name="popup_message_connected_network">네트워크에 연결되었습니다.</string>
+  <string name="popup_message_disconnected_channel">채널 접속이 끊겨 원격 문자통역 전송이 중지 되었습니다.</string>
 </resources>
