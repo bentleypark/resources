@@ -74,4 +74,5 @@
   <string name="popup_message_channel_already_exist">이미 해당 채널이 존재합니다. 다른 채널명으로 입력해 주세요.</string>
   <string name="popup_message_connected_network">네트워크에 연결되었습니다.</string>
   <string name="popup_message_disconnected_channel">채널 접속이 끊겨 원격 문자통역 전송이 중지 되었습니다.</string>
+    <string name="btn_delete_text">자막지움</string>
 </resources>

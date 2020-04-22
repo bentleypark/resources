@@ -74,4 +74,5 @@
   <string name="popup_message_channel_already_exist">Tên kênh này đã được sử dụng. Vui lòng nhập tên kênh khác.</string>
   <string name="popup_message_connected_network">네트워크에 연결되었습니다.</string>
   <string name="popup_message_disconnected_channel">채널 접속이 끊겨 원격 문자통역 전송이 중지 되었습니다.</string>
+    <string name="btn_delete_text">자막지움</string>
 </resources>
