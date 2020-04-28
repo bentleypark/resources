@@ -22,7 +22,7 @@
   <string name="popup_title_error">Lỗi</string>
   <string name="popup_message_network">Không có kết nối với internet. Vui lòng kiểm tra lại.</string>
   <string name="popup_message_need_permission">Hãy đồng ý với điều khoản để sử dụng dịch vụ. Vui lòng khởi động lại ứng dụng</string>
-  <string name="popup_message_allow_source">Vui lòng đặt \"Cho phép nguồn này\" để cập nhật ứng dụng của bạn với Soboro. Sự cho phép trên sẽ được sử dụng để cập nhật ứng dụng sau này. Bạn có muốn đi đến màn hình cài đặt?</string>
+  <string name="popup_message_allow_source">Vui lòng đặt \"Cho phép nguồn này\" để cập nhật ứng dụng của bạn với Sovoro. Sự cho phép trên sẽ được sử dụng để cập nhật ứng dụng sau này. Bạn có muốn đi đến màn hình cài đặt?</string>
   <string name="popup_message_check_network">Không thể tải ứng dụng. Vui lòng kiểm tra lại kết nối.</string>
   <string name="popup_message_check_user_info">Thông tin người dùng không đồng nhất.</string>
   <string name="popup_message_incorrect_user_info">Thông tin người dùng không đúng.</string>
@@ -74,5 +74,13 @@
   <string name="popup_message_channel_already_exist">Tên kênh này đã được sử dụng. Vui lòng nhập tên kênh khác.</string>
   <string name="popup_message_connected_network">네트워크에 연결되었습니다.</string>
   <string name="popup_message_disconnected_channel">채널 접속이 끊겨 원격 문자통역 전송이 중지 되었습니다.</string>
-    <string name="btn_delete_text">자막지움</string>
+  <string name="btn_delete_text">자막지움</string>
+  <string name="title_guide">소보로 탭 가이드</string>
+  <string name="text_guide_description">소보로 탭 사용법에 대해 알려 드립니다. 건너뛰기를 누르면 본 과정이 생략됩니다.</string>
+  <string name="text_guide_btn_recognition">시작하기 버튼을 누르면 문자 통역이 시작됩니다.</string>
+  <string name="text_guide_btn_delete_scripts">자막지움 버튼을 누르면 모든 자막이 삭제됩니다.</string>
+  <string name="text_guide_btn_sotong">버튼을 누르면 나오는 소보로 소통창에서 쉽게 상담이나 문의를 하실 수 있습니다.</string>
+  <string name="text_guide_btn_settings">설정 버튼을 누르면 글씨 크기 조절이나 언어 선택을 할 수 있습니다.</string>
+  <string name="text_guide_mic">마이크를 태블릿에 연결하시면 더욱 향상된 인식률로 사용하실 수 있습니다.</string>
+  <string name="popup_message_need_storage_permission">권한이 없어 앨범에 접근할 수 없습니다. 권한 동의 후 이용해 주세요.</string>
 </resources>
