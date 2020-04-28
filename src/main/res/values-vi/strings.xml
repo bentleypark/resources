@@ -22,7 +22,7 @@
   <string name="popup_title_error">Lỗi</string>
   <string name="popup_message_network">Không có kết nối với internet. Vui lòng kiểm tra lại.</string>
   <string name="popup_message_need_permission">Hãy đồng ý với điều khoản để sử dụng dịch vụ. Vui lòng khởi động lại ứng dụng</string>
-  <string name="popup_message_allow_source">Vui lòng đặt \ "Cho phép nguồn này \" để cập nhật ứng dụng của bạn với Soboro. Sự cho phép trên sẽ được sử dụng để cập nhật ứng dụng sau này. Bạn có muốn đi đến màn hình cài đặt?</string>
+  <string name="popup_message_allow_source">Vui lòng đặt \"Cho phép nguồn này\" để cập nhật ứng dụng của bạn với Soboro. Sự cho phép trên sẽ được sử dụng để cập nhật ứng dụng sau này. Bạn có muốn đi đến màn hình cài đặt?</string>
   <string name="popup_message_check_network">Không thể tải ứng dụng. Vui lòng kiểm tra lại kết nối.</string>
   <string name="popup_message_check_user_info">Thông tin người dùng không đồng nhất.</string>
   <string name="popup_message_incorrect_user_info">Thông tin người dùng không đúng.</string>
