@@ -83,4 +83,6 @@
   <string name="text_guide_btn_settings">Ấn "Cài đặt" để điều chỉnh cỡ chữ và chọn ngôn ngữ</string>
   <string name="text_guide_mic">Kết nối micrô với máy tính bảng để  cải thiện chất lượng nhận dạng giọng nói.</string>
   <string name="popup_message_need_storage_permission">권한이 없어 첨부파일 기능을 실행할 수 없습니다. 저장공간 권한 허용이 필요합니다.</string>
+    <string name="btn_symbol_communication">그림 소통</string>
+  <string name="btn_text_communication">문자 소통</string>
 </resources>

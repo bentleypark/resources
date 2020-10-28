@@ -83,4 +83,6 @@
   <string name="text_guide_btn_settings">설정 버튼을 누르면 글씨 크기 조절이나 언어 선택을 할 수 있습니다.</string>
   <string name="text_guide_mic">마이크를 태블릿에 연결하시면 더욱 향상된 인식률로 사용하실 수 있습니다.</string>
   <string name="popup_message_need_storage_permission">권한이 없어 첨부파일 기능을 실행할 수 없습니다. 저장공간 권한 허용이 필요합니다.</string>
+    <string name="btn_symbol_communication">그림 소통</string>
+  <string name="btn_text_communication">문자 소통</string>
 </resources>
