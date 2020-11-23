@@ -1,2 +1,1 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="kr.sovoro.common" />
+<manifest package="kr.sovoro.common" />
