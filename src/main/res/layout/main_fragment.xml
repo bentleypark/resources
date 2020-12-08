@@ -1,18 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/message"
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical_guideline1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MainFragment"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/mainViewBackgroundColor"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/vertical_guideline1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:fillViewport="true"
+            android:paddingStart="@dimen/main_fragment_scrollview_padding"
+            android:paddingTop="@dimen/main_fragment_scrollview_top_padding"
+            android:paddingEnd="@dimen/main_fragment_scrollview_padding"
+            android:paddingBottom="@dimen/main_fragment_scrollview_top_padding"
+            android:scrollbarSize="2dp"
+            android:scrollbarThumbVertical="@color/colorPrimary"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_final"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fragment_translation_text_final_marginTop"
+                android:layout_marginBottom="0dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="@font/regular"
+                android:gravity="top"
+                android:paddingBottom="@dimen/fragment_translation_text_final_paddingBottom"
+                android:scrollHorizontally="false"
+                android:text="@string/initial_default_message"
+                android:textColor="@color/interim_color"
+                android:textIsSelectable="true"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/text_interim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:paddingBottom="@dimen/fragment_translation_text_interim_paddingBottom"
+                android:textColor="@color/interim_color"
+                android:textSize="36sp" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_translate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/fragment_translation_btn_translate_marginTop"
+                android:background="@drawable/btn_translation_selector"
+                android:clickable="true"
+                android:focusable="true"
+                tools:background="@drawable/btn_translation_selector" />
+        </LinearLayout>
+
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
