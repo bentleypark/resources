@@ -52,4 +52,6 @@
     <color name="script_timestamp_text_color">#80ffffff</color>
 
     <color name="support_menu_border_color">#27272a</color>
+
+    <color name="license_hint_text_color">#99000000</color>
 </resources>
