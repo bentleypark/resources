@@ -89,6 +89,17 @@
                 android:clickable="true"
                 android:focusable="true"
                 tools:background="@drawable/btn_translation_selector" />
+
+            <ImageButton
+                android:id="@+id/btn_mic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/fragment_translation_btn_translate_marginTop"
+                android:background="@drawable/ic_btn_translate_n"
+                android:clickable="true"
+                android:focusable="true"
+                tools:background="@drawable/btn_translation_selector" />
         </LinearLayout>
 
     </LinearLayout>
