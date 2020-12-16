@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/vertical_guideline1"
@@ -42,32 +43,32 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/text_final"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/fragment_translation_text_final_marginTop"
-                android:layout_marginBottom="0dp"
-                android:clickable="true"
-                android:focusable="true"
-                android:focusableInTouchMode="true"
-                android:fontFamily="@font/regular"
-                android:gravity="top"
-                android:paddingBottom="@dimen/fragment_translation_text_final_paddingBottom"
-                android:scrollHorizontally="false"
-                android:text="@string/initial_default_message"
-                android:textColor="@color/interim_color"
-                android:textIsSelectable="true"
-                android:textSize="36sp" />
+                <TextView
+                    android:id="@+id/text_final"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/fragment_translation_text_final_marginTop"
+                    android:layout_marginBottom="0dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="@font/regular"
+                    android:gravity="top"
+                    android:paddingBottom="@dimen/fragment_translation_text_final_paddingBottom"
+                    android:scrollHorizontally="false"
+                    android:text="@string/initial_default_message"
+                    android:textColor="@color/interim_color"
+                    android:textIsSelectable="true"
+                    android:textSize="36sp" />
 
-            <TextView
-                android:id="@+id/text_interim"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/regular"
-                android:paddingBottom="@dimen/fragment_translation_text_interim_paddingBottom"
-                android:textColor="@color/interim_color"
-                android:textSize="36sp" />
+                <TextView
+                    android:id="@+id/text_interim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/regular"
+                    android:paddingBottom="@dimen/fragment_translation_text_interim_paddingBottom"
+                    android:textColor="@color/interim_color"
+                    android:textSize="36sp" />
 
             </LinearLayout>
 
