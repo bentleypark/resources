@@ -92,7 +92,7 @@
     <style name="CompleteButtonStyle" parent="Widget.MaterialComponents.Button">
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">18sp</item>
-        <item name="android:backgroundTint">#7fafff</item>
+        <item name="android:backgroundTint">@color/btn_register_disable_color</item>
     </style>
 
     <style name="OutlinedRoundedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">

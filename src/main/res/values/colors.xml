@@ -14,11 +14,11 @@
 
     <color name="dialog_title">#de000000</color>
     <color name="dialog_text">#8a000000</color>
-    <color name="dialog_button_text">#4285f4</color>
-    <color name="dialog_button_pressed">#4c4285f4</color>
+    <color name="dialog_button_text">#64b5f6</color>
+    <color name="dialog_button_pressed">#2c9cf5</color>
 
     <color name="update_progressbar">#4285f4</color>
-    <color name="btn_register_disable_color">#807fafff</color>
+    <color name="btn_register_disable_color">#c0e3ff</color>
 
     <color name="booster_dialog_background">#27272a</color>
     <color name="dialog_primary_color">#37373e</color>
@@ -53,6 +53,7 @@
 
     <color name="support_menu_border_color">#27272a</color>
 
-    <color name="license_hint_text_color">#99000000</color>
+    <color name="license_hint_text_color">#b9b9b9</color>
     <color name="license_error_text_color">#ff0000</color>
+    <color name="license_input_text_layout_border_stroke">#2196f3</color>
 </resources>
