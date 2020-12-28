@@ -54,4 +54,5 @@
     <color name="support_menu_border_color">#27272a</color>
 
     <color name="license_hint_text_color">#99000000</color>
+    <color name="license_error_text_color">#ff0000</color>
 </resources>
