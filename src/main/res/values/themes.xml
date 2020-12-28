@@ -99,10 +99,16 @@
         <item name="shapeAppearanceOverlay">
             @style/ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded
         </item>
+        <item name="errorTextAppearance">@style/ErrorText</item>
     </style>
 
     <style name="ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded" parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">32dp</item>
+    </style>
+
+    <style name="ErrorText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/license_error_text_color</item>
+        <item name="android:textSize">16sp</item>
     </style>
 </resources>
