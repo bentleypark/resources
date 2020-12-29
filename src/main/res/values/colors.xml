@@ -17,7 +17,7 @@
     <color name="dialog_button_text">#64b5f6</color>
     <color name="dialog_button_pressed">#2c9cf5</color>
 
-    <color name="update_progressbar">#4285f4</color>
+    <color name="update_progressbar">#64b5f6</color>
     <color name="btn_register_disable_color">#c0e3ff</color>
 
     <color name="booster_dialog_background">#27272a</color>
