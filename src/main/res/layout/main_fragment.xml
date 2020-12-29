@@ -73,7 +73,7 @@
                     android:text="@string/initial_default_message"
                     android:textColor="@color/interim_color"
                     android:textIsSelectable="true"
-                    android:textSize="36sp" />
+                    android:textSize="48sp" />
 
                 <TextView
                     android:id="@+id/text_interim"
@@ -90,9 +90,19 @@
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical">
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/btn_translate"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"-->
+<!--                tools:background="@drawable/ic_scroll_down" />-->
 
             <ImageButton
                 android:id="@+id/btn_translate"
@@ -102,21 +112,12 @@
                 android:layout_marginTop="@dimen/fragment_translation_btn_translate_marginTop"
                 android:clickable="true"
                 android:focusable="true"
-                tools:background="@drawable/btn_translation_selector" />
-
-            <ImageButton
-                android:id="@+id/btn_scroll_down"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="@dimen/fragment_translation_btn_translate_marginTop"
-                android:clickable="true"
-                android:focusable="true"
-                android:scaleX="0.0"
-                android:scaleY="0.0"
-                android:background="@drawable/ic_scroll_down" />
+                android:background="@drawable/btn_translation_selector" />
         </LinearLayout>
     </LinearLayout>
+
+<!--    android:scaleX="0.0"-->
+<!--    android:scaleY="0.0"-->
 
     <fragment
         android:id="@+id/aac_nav_host_fragment"

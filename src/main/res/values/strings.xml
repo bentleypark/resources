@@ -43,7 +43,7 @@
     <string name="tab_text_3">고객지원</string>
     <string name="tab_text_4">사용가이드</string>
     <string name="tab_text_5">라이브러리</string>
-    <string name="initial_default_message">아래에 시작 버튼을 누르면 문자 통역이 시작됩니다.</string>
+    <string name="initial_default_message">문자통역 버튼을 누르면 소보로 문자 통역을 시작됩니다.</string>
     <string name="license_not_assigned_error_message">아직 할당되지 않은 라이선스입니다.</string>
     <string name="license_already_activated_error_message">이미 등록된 라이선스입니다.</string>
     <string name="device_already_activated_error_message">이미 다른 라이선스가 등록된 기기입니다.</string>
