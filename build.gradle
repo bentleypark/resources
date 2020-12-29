@@ -30,4 +30,8 @@ android {
 dependencies {
     implementation Libs.material
     implementation Libs.constraintlayout
+    implementation Libs.navUi
+    implementation Libs.navUiKtx
+    implementation Libs.navFragment
+    implementation Libs.navFragmentKtx
 }
