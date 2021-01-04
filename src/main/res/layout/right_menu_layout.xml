@@ -13,10 +13,10 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         style="@style/CardViewButtonStyle"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_gravity="center"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -53,8 +53,8 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView1"
         style="@style/CardViewButtonStyle"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_gravity="center"
         android:layout_marginTop="5dp"
         app:layout_constraintStart_toStartOf="@+id/cardView"
@@ -92,8 +92,8 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView2"
         style="@style/CardViewButtonStyle"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_gravity="center"
         android:layout_marginTop="5dp"
         app:layout_constraintStart_toStartOf="@+id/cardView1"
@@ -132,8 +132,8 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView3"
         style="@style/CardViewButtonStyle"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_gravity="center"
         android:layout_marginTop="5dp"
         app:layout_constraintStart_toStartOf="@+id/cardView2"

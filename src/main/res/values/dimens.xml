@@ -138,7 +138,7 @@
 
     <dimen name="fragment_support_support_list_marginTop">10dp</dimen>
 
-    <dimen name="fragment_translation_text_final_marginTop">5dp</dimen>
+    <dimen name="fragment_translation_text_final_marginTop">3dp</dimen>
     <dimen name="fragment_translation_text_final_paddingBottom">5dp</dimen>
     <dimen name="fragment_translation_text_interim_paddingBottom">10dp</dimen>
     <dimen name="fragment_translation_text_interim_current_scroll_height">72dp</dimen>

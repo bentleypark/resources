@@ -39,19 +39,20 @@
                 android:text="@string/initial_default_message"
                 android:textColor="@color/interim_color"
                 android:textIsSelectable="true"
-                android:textSize="28sp" />
+                android:textSize="45sp" />
 
             <TextView
                 android:id="@+id/text_interim"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/regular"
-                android:paddingBottom="@dimen/fragment_translation_text_interim_paddingBottom"
+                android:layout_marginTop="-8dp"
+                android:paddingTop="0dp"
                 android:textColor="@color/interim_color"
-                android:textSize="28sp" />
-
+                android:textSize="45sp" />
         </LinearLayout>
 
+<!--        android:paddingBottom="@dimen/fragment_translation_text_interim_paddingBottom"-->
     </androidx.core.widget.NestedScrollView>
 
     <RelativeLayout
