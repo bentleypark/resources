@@ -114,6 +114,10 @@
     <string name="btn_translate_text">문자통역 시작</string>
     <string name="btn_stop_text">문자통역 중지</string>
     <string name="btn_hand_text">잠깐만요</string>
+    <string name="btn_favorite_text">즐겨찾기</string>
+    <string name="btn_setting_text">설정</string>
+    <string name="btn_cs_text">고객지원</string>
+    <string name="btn_home_text">처음으로</string>
     <string-array name="school_array">
         <item>초등학교</item>
         <item>중학교</item>

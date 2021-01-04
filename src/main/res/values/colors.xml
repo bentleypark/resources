@@ -66,4 +66,13 @@
     <color name="btn_hand_text_color">#935f21</color>
     <color name="btn_hand_background">#ffd199</color>
     <color name="btn_hand_ripple">#e9b97f</color>
+    <color name="btn_home_text_color">#7c5a00</color>
+    <color name="btn_home_background">#ffd600</color>
+    <color name="btn_home_ripple">#dfbd0c</color>
+    <color name="btn_setting_text_color">#4f57a1</color>
+    <color name="btn_setting_background">#b9c0ff</color>
+    <color name="btn_setting_ripple">#9aa2ea</color>
+    <color name="btn_cs_text_color">#8a47a9</color>
+    <color name="btn_cs_background">#e6b0ff</color>
+    <color name="btn_cs_ripple">#d197ed</color>
 </resources>

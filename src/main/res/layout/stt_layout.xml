@@ -45,20 +45,19 @@
                 android:id="@+id/text_interim"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/regular"
                 android:layout_marginTop="-8dp"
+                android:fontFamily="@font/regular"
                 android:paddingTop="0dp"
                 android:textColor="@color/interim_color"
                 android:textSize="45sp" />
         </LinearLayout>
 
-<!--        android:paddingBottom="@dimen/fragment_translation_text_interim_paddingBottom"-->
     </androidx.core.widget.NestedScrollView>
 
     <RelativeLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="2.3"
+        android:layout_weight="2"
         android:orientation="horizontal">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -77,12 +76,12 @@
 
         <androidx.cardview.widget.CardView
             style="@style/CardViewButtonStyle"
-            android:layout_width="120dp"
-            android:layout_height="100dp"
+            android:layout_width="140dp"
+            android:layout_height="125dp"
             android:layout_alignParentEnd="true"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:layout_marginEnd="7dp">
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp">
 
             <RelativeLayout
                 android:id="@+id/btn_translate"
@@ -95,20 +94,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="8dp"
                     android:background="@drawable/ic_translate" />
 
                 <TextView
                     android:id="@+id/tv_translate"
+                    style="@style/RightMenuTextViewStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/iv_translate"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginBottom="8dp"
-                    android:fontFamily="@font/noto_medium"
+                    android:layout_marginTop="12dp"
                     android:text="@string/btn_translate_text"
-                    android:textColor="@android:color/white"
-                    android:textSize="18sp" />
+                    android:textColor="@android:color/white" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
     </RelativeLayout>
