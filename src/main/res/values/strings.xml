@@ -111,6 +111,8 @@
     <string name="fragment_script_send_dialog_title">자막 내보내기</string>
     <string name="fragment_script_send_dialog_tv_pdf_sent_title">PDF 문서로 내보내기</string>
     <string name="fragment_script_send_dialog_tv_txt_sent_title">TXT 문서로 내보내기</string>
+    <string name="btn_translate_text">문자통역 시작</string>
+    <string name="btn_stop_text">문자통역 중지</string>
     <string-array name="school_array">
         <item>초등학교</item>
         <item>중학교</item>
