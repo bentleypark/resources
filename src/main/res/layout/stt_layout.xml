@@ -33,6 +33,7 @@
                 android:focusable="true"
                 android:focusableInTouchMode="true"
                 android:fontFamily="@font/regular"
+                android:lineSpacingExtra="-5dp"
                 android:gravity="top"
                 android:paddingBottom="@dimen/fragment_translation_text_final_paddingBottom"
                 android:scrollHorizontally="false"
@@ -104,7 +105,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/iv_translate"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="12dp"
+                    android:layout_marginTop="8dp"
                     android:text="@string/btn_translate_text"
                     android:textColor="@android:color/white" />
             </RelativeLayout>
