@@ -22,25 +22,26 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <RelativeLayout
-            android:id="@+id/btn_translate"
+            android:id="@+id/btn_favorite"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/btn_translate_background">
 
             <ImageView
-                android:id="@+id/iv_translate"
+                android:id="@+id/iv_favorite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="5dp"
-                android:background="@drawable/ic_translate" />
+                android:background="@drawable/ic_favorite" />
 
             <TextView
-                android:id="@+id/tv_translate"
+                android:id="@+id/tv_favorite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/iv_translate"
+                android:layout_below="@+id/iv_favorite"
                 android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/noto_medium"
                 android:text="즐겨찾기"
@@ -60,28 +61,29 @@
         app:layout_constraintTop_toBottomOf="@+id/cardView">
 
         <RelativeLayout
-            android:id="@+id/btn_translate1"
+            android:id="@+id/btn_setting"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/btn_translate_background">
 
             <ImageView
-                android:id="@+id/iv_translate1"
+                android:id="@+id/iv_setting"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="5dp"
-                android:background="@drawable/ic_translate" />
+                android:background="@drawable/ic_setting" />
 
             <TextView
-                android:id="@+id/tv_translate1"
+                android:id="@+id/tv_setting"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/iv_translate1"
+                android:layout_below="@+id/iv_setting"
                 android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/noto_medium"
-                android:text="즐겨찾기"
+                android:text="설정"
                 android:textColor="@android:color/white"
                 android:textSize="20sp" />
         </RelativeLayout>
@@ -104,22 +106,23 @@
             android:background="@drawable/btn_translate_background">
 
             <ImageView
-                android:id="@+id/iv_translate2"
+                android:id="@+id/iv_cs"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="5dp"
-                android:background="@drawable/ic_translate" />
+                android:background="@drawable/ic_cs" />
 
             <TextView
-                android:id="@+id/tv_translate2"
+                android:id="@+id/tv_cs"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/iv_translate2"
+                android:layout_below="@+id/iv_cs"
                 android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/noto_medium"
-                android:text="즐겨찾기"
+                android:text="고객지원"
                 android:textColor="@android:color/white"
                 android:textSize="20sp" />
         </RelativeLayout>
@@ -137,29 +140,30 @@
         app:layout_constraintTop_toBottomOf="@+id/cardView2">
 
         <RelativeLayout
-            android:id="@+id/btn_translate3"
+            android:id="@+id/btn_hand"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/btn_translate_background">
+            android:background="@drawable/btn_hand_background">
 
             <ImageView
-                android:id="@+id/iv_translate3"
+                android:id="@+id/iv_hand"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="5dp"
-                android:background="@drawable/ic_translate" />
+                android:layout_marginTop="8dp"
+                android:background="@drawable/ic_hand" />
 
             <TextView
-                android:id="@+id/tv_translate3"
+                android:id="@+id/tv_hand"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/iv_translate3"
+                android:layout_below="@+id/iv_hand"
                 android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
                 android:layout_marginBottom="8dp"
-                android:fontFamily="@font/noto_medium"
-                android:text="즐겨찾기"
-                android:textColor="@android:color/white"
+                android:fontFamily="@font/noto_regular"
+                android:text="@string/btn_hand_text"
+                android:textColor="@color/btn_hand_text_color"
                 android:textSize="20sp" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>

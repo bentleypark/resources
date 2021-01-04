@@ -63,4 +63,7 @@
     <color name="btn_stop_text_color">#64b5f6</color>
     <color name="btn_scroll_down_background_tint">#a0a6a8</color>
     <color name="btn_scroll_down_ripple_color">#8a8f90</color>
+    <color name="btn_hand_text_color">#935f21</color>
+    <color name="btn_hand_background">#ffd199</color>
+    <color name="btn_hand_ripple">#e9b97f</color>
 </resources>
