@@ -26,9 +26,12 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/input_list"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="135dp"
             android:orientation="horizontal"
+            android:scrollbarSize="5dp"
             android:scrollbars="horizontal"
+            android:layout_marginBottom="-1dp"
+            android:scrollbarThumbHorizontal="@color/btn_translate_background"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             tools:listitem="@layout/item_input_aac_symbol" />
     </LinearLayout>
@@ -48,8 +51,8 @@
             android:id="@+id/btn_add"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:clickable="false"
-            android:background="@color/btn_add_disable">
+            android:background="@color/btn_add_disable"
+            android:clickable="false">
 
             <ImageView
                 android:id="@+id/iv_add"
