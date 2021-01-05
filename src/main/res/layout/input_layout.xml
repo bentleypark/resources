@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/parent_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical_guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.78" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/input_list"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:scrollbars="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toStartOf="@+id/vertical_guideline2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/item_input_aac_symbol" />
+
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
@@ -16,29 +37,29 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <RelativeLayout
-            android:id="@+id/btn_favorite"
+            android:id="@+id/btn_add"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/btn_home_background">
+            android:background="@drawable/btn_add_background">
 
             <ImageView
-                android:id="@+id/iv_favorite"
+                android:id="@+id/iv_add"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="@dimen/right_menu_card_view_child_view_margin"
-                android:background="@drawable/ic_favorite" />
+                android:background="@drawable/ic_favorite_add" />
 
             <TextView
-                android:id="@+id/tv_favorite"
+                android:id="@+id/tv_add"
                 style="@style/RightMenuTextViewStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/iv_favorite"
+                android:layout_below="@+id/iv_add"
                 android:layout_centerHorizontal="true"
                 android:layout_marginVertical="@dimen/right_menu_card_view_child_view_margin"
                 android:text="@string/btn_favorite_text"
-                android:textColor="@color/btn_hand_text_color" />
+                android:textColor="@color/btn_add_text_color" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
@@ -53,29 +74,29 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <RelativeLayout
-            android:id="@+id/btn_setting"
+            android:id="@+id/btn_delete"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/btn_setting_background">
+            android:background="@drawable/btn_delete_background">
 
             <ImageView
-                android:id="@+id/iv_setting"
+                android:id="@+id/iv_delete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="@dimen/right_menu_card_view_child_view_margin"
-                android:background="@drawable/ic_setting" />
+                android:background="@drawable/ic_delete" />
 
             <TextView
-                android:id="@+id/tv_setting"
+                android:id="@+id/tv_delete"
                 style="@style/RightMenuTextViewStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/iv_setting"
+                android:layout_below="@+id/iv_delete"
                 android:layout_centerHorizontal="true"
                 android:layout_marginVertical="@dimen/right_menu_card_view_child_view_margin"
                 android:text="@string/btn_setting_text"
-                android:textColor="@color/btn_setting_text_color" />
+                android:textColor="@color/white" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 

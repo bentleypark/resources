@@ -75,4 +75,10 @@
     <color name="btn_cs_text_color">#8a47a9</color>
     <color name="btn_cs_background">#e6b0ff</color>
     <color name="btn_cs_ripple">#d197ed</color>
+    <color name="btn_add_text_color">#5b711e</color>
+    <color name="btn_add_background">#a9d825</color>
+    <color name="btn_add_ripple">#91bb1b</color>
+    <color name="btn_add_disable">#d3e3a5</color>
+    <color name="btn_delete_background">#fe8080</color>
+    <color name="btn_delete_ripple">#db6868</color>
 </resources>
