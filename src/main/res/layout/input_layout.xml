@@ -95,7 +95,7 @@
                 android:layout_below="@+id/iv_delete"
                 android:layout_centerHorizontal="true"
                 android:layout_marginVertical="@dimen/right_menu_card_view_child_view_margin"
-                android:text="@string/btn_setting_text"
+                android:text="@string/btn_delete_text"
                 android:textColor="@color/white" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
