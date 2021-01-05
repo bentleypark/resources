@@ -13,17 +13,25 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.78" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/input_list"
+
+    <LinearLayout
+        android:id="@+id/input_list_view"
         android:layout_width="0dp"
-        android:layout_height="150dp"
-        android:orientation="horizontal"
-        android:scrollbars="horizontal"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_height="wrap_content"
+        android:clickable="true"
         app:layout_constraintEnd_toStartOf="@+id/vertical_guideline2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:listitem="@layout/item_input_aac_symbol" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/input_list"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:scrollbars="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/item_input_aac_symbol" />
+    </LinearLayout>
 
 
     <androidx.cardview.widget.CardView
@@ -40,7 +48,8 @@
             android:id="@+id/btn_add"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/btn_add_background">
+            android:clickable="false"
+            android:background="@color/btn_add_disable">
 
             <ImageView
                 android:id="@+id/iv_add"
