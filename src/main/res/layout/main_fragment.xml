@@ -62,4 +62,14 @@
         app:layout_constraintStart_toEndOf="@+id/aac_nav_host_fragment"
         app:layout_constraintTop_toTopOf="@+id/vertical_guideline3" />
 
+    <include
+        android:id="@+id/input_layout"
+        layout="@layout/input_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/vertical_guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/vertical_guideline1" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
