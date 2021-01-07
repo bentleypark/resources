@@ -91,8 +91,9 @@
 
     <style name="CompleteButtonStyle" parent="Widget.MaterialComponents.Button">
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:backgroundTint">@color/btn_register_disable_color</item>
+        <item name="android:fontFamily">@font/noto_medium</item>
     </style>
 
     <style name="OutlinedRoundedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
@@ -107,9 +108,9 @@
         <item name="cornerSize">32dp</item>
     </style>
 
-    <style name="ErrorText" parent="TextAppearance.AppCompat">
+    <style name="ErrorText" parent="@android:style/TextAppearance">
         <item name="android:textColor">@color/license_error_text_color</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">12sp</item>
     </style>
 
     <style name="CardViewButtonStyle" parent="Widget.MaterialComponents.CardView">
@@ -122,7 +123,7 @@
 
     <style name="RightMenuTextViewStyle" parent="Widget.MaterialComponents.TextView">
         <item name="android:fontFamily">@font/noto_regular</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">16sp</item>
     </style>
 
 </resources>
