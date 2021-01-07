@@ -163,6 +163,6 @@
     <dimen name="library_menu_button_width_size">23.5dp</dimen>
 
     <dimen name="right_menu_card_view_size">120dp</dimen>
-    <dimen name="right_menu_card_view_margin_top">5dp</dimen>
+    <dimen name="right_menu_card_view_margin_top">10dp</dimen>
     <dimen name="right_menu_card_view_child_view_margin">10dp</dimen>
 </resources>
