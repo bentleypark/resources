@@ -120,6 +120,7 @@
     <string name="btn_home_text">처음으로</string>
     <string name="btn_add_text">즐겨찾기 등록</string>
     <string name="btn_delete_text">삭제</string>
+    <string name="favorite_add_confirm_text">즐겨찾기에 등록되었습니다.</string>
     <string-array name="school_array">
         <item>초등학교</item>
         <item>중학교</item>
