@@ -170,5 +170,7 @@
 
     <dimen name="aac_fragment_card_view_margin">12dp</dimen>
     <dimen name="aac_fragment_card_view_margin_end">5dp</dimen>
-    <dimen name="aac_fragment_child_card_view_height">370dp</dimen>
+    <dimen name="aac_fragment_child_page_btn_height">370dp</dimen>
+    <dimen name="aac_fragment_child_card_view_width">215dp</dimen>
+    <dimen name="aac_fragment_child_card_view_height">180dp</dimen>
 </resources>
