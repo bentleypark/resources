@@ -82,4 +82,6 @@
     <color name="btn_delete_background">#fe8080</color>
     <color name="btn_delete_ripple">#db6868</color>
     <color name="btn_arrow_background">#a0a6a8</color>
+    <color name="btn_arrow_disable">#737779</color>
+    <color name="btn_arrow_ripple">#8a8f90</color>
 </resources>
