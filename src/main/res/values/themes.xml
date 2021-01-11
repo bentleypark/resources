@@ -160,7 +160,7 @@
 
     <style name="SttTextFinalAreaStyle" parent="Widget.MaterialComponents.TextView">
         <item name="android:fontFamily">@font/regular</item>
-        <item name="android:textSize">32sp</item>
+        <item name="android:textSize">33sp</item>
         <item name="android:textColor">@color/final_color</item>
     </style>
 </resources>

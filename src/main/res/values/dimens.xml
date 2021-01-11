@@ -167,4 +167,6 @@
     <dimen name="right_menu_card_view_child_view_margin">10dp</dimen>
 
     <dimen name="input_layout_btn_delete_margin_end">148dp</dimen>
+
+    <dimen name="aac_fragment_top_category_margin_top">12dp</dimen>
 </resources>
