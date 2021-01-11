@@ -168,5 +168,7 @@
 
     <dimen name="input_layout_btn_delete_margin_end">148dp</dimen>
 
-    <dimen name="aac_fragment_top_category_margin_top">12dp</dimen>
+    <dimen name="aac_fragment_card_view_margin">12dp</dimen>
+    <dimen name="aac_fragment_card_view_margin_end">5dp</dimen>
+    <dimen name="aac_fragment_child_card_view_height">370dp</dimen>
 </resources>
