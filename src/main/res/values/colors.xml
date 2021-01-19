@@ -87,4 +87,5 @@
     <color name="btn_select_background">#64b5f6</color>
     <color name="btn_select_disable">#c0e3ff</color>
     <color name="btn_select_ripple">#2c9cf5</color>
+    <color name="no_favorite_card_background">#c4c4c4</color>
 </resources>
