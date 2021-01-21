@@ -126,7 +126,7 @@
         <item name="cardCornerRadius">8dp</item>
         <item name="cardElevation">2dp</item>
         <item name="useCompatPadding">true</item>
-        <item name="android:clickable">true</item>
+<!--        <item name="android:clickable">true</item>-->
         <!--        <item name="cardBackgroundColor">@color/btn_arrow_background</item>-->
     </style>
 
