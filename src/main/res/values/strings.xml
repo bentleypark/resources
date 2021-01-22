@@ -119,7 +119,8 @@
     <string name="btn_cs_text">고객지원</string>
     <string name="btn_home_text">처음으로</string>
     <string name="btn_add_text">즐겨찾기 등록</string>
-    <string name="btn_delete_text">삭제</string>
+    <string name="btn_delete_text1">삭제</string>
+    <string name="btn_delete_text2">모두 삭제</string>
     <string name="favorite_add_confirm_text">즐겨찾기에 등록되었습니다.</string>
     <string name="btn_select_text">선택</string>
     <string name="btn_complete_text">완료</string>
