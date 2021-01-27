@@ -127,6 +127,7 @@
     <string name="btn_cancel_text">취소</string>
     <string name="no_favorite_card_txt">등록된 즐겨찾기가 없습니다.</string>
     <string name="delete_all_dialog_text">모두 삭제하시겠습니까?</string>
+    <string name="setting_fragment_toolbar_title">설정</string>
     <string-array name="school_array">
         <item>초등학교</item>
         <item>중학교</item>
