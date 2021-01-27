@@ -208,4 +208,10 @@
         <item name="android:textSize">33sp</item>
         <item name="android:textColor">@color/final_color</item>
     </style>
+
+    <style name="Theme.SOVORODevelop.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/black</item>
+    </style>
+
+    <style name="Theme.SOVORODevelop.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
