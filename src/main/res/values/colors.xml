@@ -91,4 +91,5 @@
     <color name="btn_positive_color">#fe8080</color>
     <color name="btn_negative_color">#2c9cf5</color>
     <color name="btn_voice_setting_text_color_n">#2196f3</color>
+    <color name="support_fragment_item_border_color">#b9b9b9</color>
 </resources>

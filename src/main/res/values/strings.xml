@@ -144,6 +144,9 @@
     <string name="btn_speaker_setting_text7">남자 어린이</string>
     <string name="btn_speaker_setting_text8">여자 어린이</string>
     <string name="btn_listen">미리듣기</string>
+    <string name="support_fragment_toolbar_title">고객지원</string>
+    <string name="rule_fragment_toolbar_title1">개인정보처리방침</string>
+    <string name="rule_fragment_toolbar_title2">이용약관</string>
     <string-array name="school_array">
         <item>초등학교</item>
         <item>중학교</item>
@@ -180,7 +183,6 @@
         <item>앱 정보</item>
         <item>이용약관</item>
         <item>개인정보처리방침</item>
-        <item>사용가이드</item>
     </string-array>
     <string-array name="social_item_array">
         <item>웹사이트</item>
