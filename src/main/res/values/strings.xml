@@ -143,6 +143,7 @@
     <string name="btn_speaker_setting_text6">성인 여자3</string>
     <string name="btn_speaker_setting_text7">남자 어린이</string>
     <string name="btn_speaker_setting_text8">여자 어린이</string>
+    <string name="btn_listen">미리듣기</string>
     <string-array name="school_array">
         <item>초등학교</item>
         <item>중학교</item>
