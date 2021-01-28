@@ -185,11 +185,11 @@
         <item>개인정보처리방침</item>
     </string-array>
     <string-array name="social_item_array">
-        <item>웹사이트</item>
-        <item>이메일</item>
-        <item>페이스북</item>
-        <item>인스타그램</item>
-        <item>카카오톡 채널</item>
+        <item>웹사이트(www.sovoro.kr)</item>
+        <item>이메일(contact@sovoro.kr)</item>
+        <item>페이스북(www.facebook.com/sovoro.kr/)</item>
+        <item>인스타그램(www.instagram.com/sovoro_official/)</item>
+        <item>카카오톡 채널(pf.kakao.com/_bjzxcj)</item>
     </string-array>
     <string-array name="social_url_array">
         <item>www.sovoro.kr</item>
@@ -201,7 +201,7 @@
     <string-array name="sovoro_info_array">
         <item>소보로 버전</item>
         <item>제품 라이선스</item>
-        <item>소보로탭 시리얼 넘버</item>
+        <item>소보로탭 안드로이드 ID</item>
         <item>안드로이드 버전</item>
     </string-array>
     <string-array name="custom_guide_array">
