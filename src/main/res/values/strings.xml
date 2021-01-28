@@ -128,11 +128,21 @@
     <string name="no_favorite_card_txt">등록된 즐겨찾기가 없습니다.</string>
     <string name="delete_all_dialog_text">모두 삭제하시겠습니까?</string>
     <string name="setting_fragment_toolbar_title">설정</string>
+    <string name="voice_setting_title">목소리 볼륨</string>
     <string name="btn_voice_setting_text1">가장 낮음</string>
     <string name="btn_voice_setting_text2">낮음</string>
     <string name="btn_voice_setting_text3">보통</string>
     <string name="btn_voice_setting_text4">높음</string>
     <string name="btn_voice_setting_text5">가장 높음</string>
+    <string name="speaker_setting_title">목소리 선택</string>
+    <string name="btn_speaker_setting_text1">성인 남자1</string>
+    <string name="btn_speaker_setting_text2">성인 남자2</string>
+    <string name="btn_speaker_setting_text3">성인 남자3</string>
+    <string name="btn_speaker_setting_text4">성인 여자1</string>
+    <string name="btn_speaker_setting_text5">성인 여자2</string>
+    <string name="btn_speaker_setting_text6">성인 여자3</string>
+    <string name="btn_speaker_setting_text7">남자 어린이</string>
+    <string name="btn_speaker_setting_text8">여자 어린이</string>
     <string-array name="school_array">
         <item>초등학교</item>
         <item>중학교</item>

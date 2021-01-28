@@ -176,7 +176,8 @@
     <dimen name="aac_fragment_recyclerview_width">892dp</dimen>
     <dimen name="aac_fragment_recyclerview_margin_top">2dp</dimen>
 
-    <dimen name="btn_voice_setting_width">173dp</dimen>
+    <dimen name="btn_voice_setting_width">180dp</dimen>
     <dimen name="btn_voice_setting_height">73dp</dimen>
-    <dimen name="btn_voice_setting_text_size">24sp</dimen>
+    <dimen name="btn_voice_setting_text_size">20sp</dimen>
+    <dimen name="btn_speaker_setting_width">470dp</dimen>
 </resources>
