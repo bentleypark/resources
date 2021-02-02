@@ -182,4 +182,7 @@
     <dimen name="btn_speaker_setting_width">470dp</dimen>
     <dimen name="fragment_support_support_list_margin_top">80dp</dimen>
     <dimen name="fragment_support_support_list_margin">50dp</dimen>
+
+    <dimen name="btn_agree_width">95dp</dimen>
+    <dimen name="btn_agree_height">36dp</dimen>
 </resources>

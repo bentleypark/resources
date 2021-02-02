@@ -147,37 +147,9 @@
     <string name="support_fragment_toolbar_title">고객지원</string>
     <string name="rule_fragment_toolbar_title1">개인정보처리방침</string>
     <string name="rule_fragment_toolbar_title2">이용약관</string>
-    <string-array name="school_array">
-        <item>초등학교</item>
-        <item>중학교</item>
-        <item>고등학교</item>
-        <item>학교를 선택하세요.</item>
-    </string-array>
-    <string-array name="school_grade_array">
-        <item>1학년</item>
-        <item>2학년</item>
-        <item>3학년</item>
-        <item>학년을 선택하세요.</item>
-    </string-array>
-    <string-array name="language_code_array">
-        <item>한국어</item>
-        <item>영어</item>
-        <item>일본어</item>
-        <item>중국어</item>
-        <item>독일어</item>
-        <item>스페인어</item>
-        <item>베트남어</item>
-    </string-array>
-    <string-array name="secondary_language_code_array">
-        <item>선택없음</item>
-        <item>한국어</item>
-        <item>영어</item>
-        <item>일본어</item>
-        <item>중국어</item>
-        <item>독일어</item>
-        <item>스페인어</item>
-        <item>베트남어</item>
-    </string-array>
+    <string name="tv_agreement_title">소보로 탭 AAC 이용약관에 동의하십니까?</string>
+    <string name="btn_agree_title">동의함</string>
+    <string name="btn_disagree_title">동의 안함</string>
     <string-array name="support_item_array">
         <item>웹사이트/이메일/SNS</item>
         <item>앱 정보</item>
@@ -203,45 +175,6 @@
         <item>제품 라이선스</item>
         <item>소보로탭 안드로이드 ID</item>
         <item>안드로이드 버전</item>
-    </string-array>
-    <string-array name="custom_guide_array">
-        <item>정확도 부스터 안내</item>
-        <item>소통공간 안내</item>
-        <item>설정 안내</item>
-        <item>라이브러리 안내</item>
-        <item>영상 자막 시청 안내</item>
-        <item>통화 자막 시청 안내</item>
-        <item>무선 마이크 사용 안내</item>
-        <item>기타 유의사항</item>
-    </string-array>
-    <string-array name="tab_text_array">
-        <item>문자통역</item>
-        <item>라이브러리</item>
-        <item>소통공간</item>
-        <item>고객지원</item>
-    </string-array>
-    <string-array name="custom_weekdays">
-        <item>MON</item>
-        <item>TUE</item>
-        <item>WED</item>
-        <item>THU</item>
-        <item>FRI</item>
-        <item>SAT</item>
-        <item>SUN</item>
-    </string-array>
-    <string-array name="custom_months">
-        <item>1월</item>
-        <item>2월</item>
-        <item>3월</item>
-        <item>4월</item>
-        <item>5월</item>
-        <item>6월</item>
-        <item>7월</item>
-        <item>8월</item>
-        <item>9월</item>
-        <item>10월</item>
-        <item>11월</item>
-        <item>12월</item>
     </string-array>
     <string name="rules_of_use">
 <![CDATA[
