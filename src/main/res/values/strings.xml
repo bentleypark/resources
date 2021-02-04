@@ -471,5 +471,6 @@
 &#160;이 약관은 2021년 02월 01일부터 적용됩니다.<br />
 ]]>
     </string>
+    <string name="leak_canary_test_class_name">assertk.Assert</string>
 </resources>
 
