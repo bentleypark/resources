@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/aac_05_s" android:state_selected="true" />
-    <item android:drawable="@drawable/aac_05_n"/>
+    <item android:drawable="@drawable/ic_aac_05_p" android:state_selected="true" />
+    <item android:drawable="@drawable/ic_aac_05_n"/>
 </selector>
